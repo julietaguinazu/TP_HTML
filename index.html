@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo HTML</title>
+    <style>
+        table{
+            width:100% ;
+            border-collapse: collapse;
+            
+        }
+        th,td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        thead{
+            font-weight: bold;
+            background-color: bisque;
+        }
+        tbody{
+            
+            background-color: cadetblue;
+
+        }
+    </style>
+</head>
+<main>
+   <section id="1. Estructura">
+      <h1>1. Estructura Básica del Documento HTML</h1>
+      <p>
+      Este documento HTML tiene una estructura básica que incluye la declaración de DOCTYPE, etiquetas de metadatos y un título
+      </p>   
+    </section>
+    <section>
+        <h2>2. Encabezados y Propiedades del Texto</h2>
+        <p>
+            <b>Esto es un texto en negrita.</b><br>
+            <em>Esto es un texto en cursiva.</em><br>
+            <mark>Esto es un texto subrayado.</mark>
+        </p>
+    </section>    
+    <section>
+        <h3>3. Divisiones y Agrupación de Contenido</h3>
+        <div><b>Sección 1</b></div>
+        <div><p>Contenido de la primera sección agrupada en un div.</p></div>
+        <div><b>Sección 2</b></div>
+        <div><p>Contenido de la segunda sección agrupada en un div.</p></div>
+    </section>
+    <section>
+        <h4>4. Enlaces y Listas</h4>
+        <p>Visita nuestro <a href="https://www.google.com.ar/webhp?gl=ar" target="_blank">sitio web</a> para más información.</p>
+    
+     <div>
+        <p>Enlaces Internos:</p></  br>
+        <ul>
+            <li><a href="#1. Estructura"> Estructura</a>  </li>
+            <li><a href="#5. Multimedia"> Multimedia</a> </li>
+            <li><a href="#7. Formularios"> Formularios</a></li>
+        </ul>
+     </div>
+     
+     <div>
+        <p>Lista desordenada:</p></  br>
+        <ul>
+            <li>Primer ítem de una lista desordenada.</li>
+            <li>Segundo ítem de una lista desordenada.</li>
+        </ul>
+     </div>
+     <div>
+        <p>Lista ordenada:</p></  br>
+        <ol>
+            <li>Primer ítem de una lista ordenada.</li>
+            <li>Segundo ítem de una lista ordenada.</li>
+        </ol>
+     </div>
+    </section>
+
+    <section id="5. Multimedia">
+        <h5>5. Elementos Multimedia</h5>
+        <div>
+            <img src="https://s1.significados.com/foto/earth-11015-1920.jpg" 
+            width="200px"
+            height="200px"
+            alt="Es una imagen">
+          
+            <br>
+
+            <iframe src="https://embed.ted.com/talks/jorge_drexler_poetry_music_and_identity?language=es"
+            width="400" height="400" frameborder="0" scrolling="no" allowfullscreen></iframe>
+
+            <br>
+
+            <audio src="https://download.blender.org/peach/trailer/trailer_1080p.ogg" 
+            controls autoplay
+            ></audio>
+
+        </div>
+
+    </section>
+    <section>
+        <h6>6. Tablas</h6>
+
+        <div>
+            <table >
+                <thead>
+                    <tr>
+                        <th>Columna 1</th>
+                        <th>Columna 2</th>
+                        <th>Columna 3</th>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Dato 1 </td>
+                        <td>Dato 2 </td>
+                        <td>Dato 3 </td>
+                    </tr>
+                    <tr>
+                        <td>Dato 4 </td>
+                        <td>Dato 5 </td>
+                        <td>Dato 6 </td>
+                    </tr>
+                    <tr>
+                        <td>Dato 7 </td>
+                        <td>Dato 8 </td>
+                        <td>Dato 9</td>
+                    </tr>
+
+                </tbody>
+               
+            </table>
+
+        </div>
+    </sectionsection>
+    <section id="7. Formularios">
+        <h3>7. Formularios</h3>
+        <div>
+            <form>
+                <label>Nombre:</label>
+                <input type="nombre" placeholder="ingrese su nombre"/>
+            
+             <br>
+            
+                <label>Email:</label>
+                <input type="email" placeholder="example@example.com"/>
+            
+             <br>
+                <label>Mensaje:</label>
+                <br>
+                <textarea placeholder="ingrese  el mensaje"></textarea>
+                
+             <br>
+              
+             <button type="submit">Enviar</button>
+
+            </form>
+
+        </section>
+    </div>
+
+</body>
+
+</html>
